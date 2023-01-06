@@ -4,6 +4,8 @@ $color-neutral-900: #1f3049;
 $color-primary-400: #34395f;
 $color-secondary-200: #e7e454;
 $color-secondary-100: #eeec85;
+$color-background: #f8f7ce;
+$color-background-secondary: #ebebef;
 
 // font-families
 $ff-sans: 'Open Sans', sans-serif;
@@ -27,6 +29,29 @@ $size-20: 1.25rem;
 $size-32: 2rem;
 $size-36: 2.25rem;
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Set core body defaults */
+
+li {
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +62,33 @@ body {
   font-size: $fs-400;
   font-weight: $fw-400;
   color: $color-neutral-900;
-  background-color: $color-neutral-100;
+  background-color: $color-background-secondary;
   font-family: $ff-sans;
   text-align: center;
+
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.65;
+  padding: 1rem;
+  background-color: #f5f2f7;
+  color: #29344b;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-secondary-100;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.smol-sidebar {
+  display: grid;
+  grid-template-columns: fit-content(20ch) minmax(min(50vw, 30ch), 1fr);
 }
