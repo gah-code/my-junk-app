@@ -8,16 +8,19 @@
       content="Junk Gone Hauling & Junk Removal Services offers Junk Removal in Hollister, CA. We are a full service junk removal company, providing you with all the services that you need to get rid of your junk on your terms.."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/style.css" />
-    <title>Junk App</title>
+
+    <title>Junk App | Title Here</title>
   </head>
+
   <body>
     <header class="header">
       <a href="#">
         <img
           class="logo"
           alt="junk gone hauling and junk removal services repo 2023 logo"
-          src="assets/logo.png"
+          src=""
         />
       </a>
 
@@ -46,7 +49,8 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              Junk Gone Hauling & Junk Removal Services LLC
+              Junk Gone Hauling &
+              <span class="highlight">Junk Removal</span> Services
             </h1>
             <p class="hero-description">
               We are a full service junk removal company, providing you with all
@@ -57,7 +61,7 @@
             >
 
             <a href="#how" class="btn btn--outline">Learn more &darr;</a>
-            <div class="delivered-meals">
+            <!-- <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
                 <img src="img/customers/customer-2.jpg" alt="Customer photo" />
@@ -70,43 +74,237 @@
                 <span>100+</span> junk removal services completed 2022
               </p>
             </div>
-          </div>
-          <div class="hero-img-box">
-            <picture>
-              <source srcset="img/hero.webp" type="image/webp" />
-              <source srcset="img/hero-min.png" type="image/png" />
+          </div> -->
+            <div class="hero-img-box">
+              <picture>
+                <source srcset="img/hero.webp" type="image/webp" />
+                <source srcset="img/hero-min.png" type="image/png" />
 
-              <img src="img/hero-min.png" class="hero-img" alt="" />
-            </picture>
+                <img src="" class="hero-img" alt="" />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section" id="section--1">
-        <div class="section__title">
-          <h2 class="section__description">Services</h2>
-          <h3 class="section__header">Services We Can Help You With</h3>
+      <section class="section-services" id="section--1">
+        <div class="container">
+          <span class="subheading">Services</span>
+          <h2 class="heading-secondary">Services We Can Help You With</h2>
         </div>
 
-        <div class="features">
-          <img src="" data-src="" alt="" class="features__img lazy-img" />
-          <div class="features__feature">
-            <div class="features__icon">
+        <div class="container grid grid--2-cols">
+          <!-- STEP 01 -->
+          <div class="services-text-box">
+            <div class="services-icon">
               <svg>
                 <use xlink:href="assets/icons.svg#icon-check-circle"></use>
               </svg>
             </div>
-            <h5 class="features__header">
+            <h3 class="heading-tertiary">
               We are a local business that has been in the industry for years
+            </h3>
+            <p class="services-description">
+              We have a team of professionals, who are all fully trained and
+              ready to tackle any job. We can remove any type of junk or waste
+              from your property, including household appliances, construction
+              debris, yard waste and more! We also offer furniture disposal
+              services for those items that you no longer want in your home but
+              can't seem to part with.
+            </p>
+          </div>
+
+          <div class="services-img-box">
+            <img
+              src=""
+              class="services-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="services-img-box">
+            <img
+              src=""
+              class="services-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+          <div class="services-text-box">
+            <div class="services-icon">
+              <svg>
+                <use xlink:href="assets/icons.svg#icon-check-circle"></use>
+              </svg>
+            </div>
+            <h3 class="heading-tertiary">
+              We are a local business that has been in the industry for years
+            </h3>
+            <p class="services-description">
+              We have a team of professionals, who are all fully trained and
+              ready to tackle any job. We can remove any type of junk or waste
+              from your property, including household appliances, construction
+              debris, yard waste and more! We also offer furniture disposal
+              services for those items that you no longer want in your home but
+              can't seem to part with.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+        </div>
+      </section>
+
+      <section class="section-services" id="section--1">
+        <div class="container">
+          <span class="subheading">Top Operations</span>
+          <h2 class="heading-secondary">Services We Can Help You With</h2>
+        </div>
+
+        <div class="operations">
+          <div class="operations__tab-container">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active"
+              data-tab="1"
+            >
+              <span>01</span>Furniture Removal
+            </button>
+            <button class="btn operations__tab operations__tab--2" data-tab="2">
+              <span>02</span>Instant Loans
+            </button>
+            <button class="btn operations__tab operations__tab--3" data-tab="3">
+              <span>03</span>Instant Closing
+            </button>
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <div class="operations__icon operations__icon--1">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-upload"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              Tranfser money to anyone, instantly! No fees, no BS.
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              alias sint quos? Accusantium a fugiat porro reiciendis saepe
-              quibusdam debitis ducimus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="operations__content operations__content--2">
+            <div class="operations__icon operations__icon--2">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-home"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              Buy a home or make your dreams come true, with instant loans.
+            </h5>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <div class="operations__icon operations__icon--3">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-user-x"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              No longer need your account? No problem! Close it instantly.
+            </h5>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
             </p>
           </div>
         </div>
       </section>
+
+      <section class="section" id="section--3">
+        <div class="section__title section__title--testimonials">
+          <h2 class="section__description">Not sure yet?</h2>
+          <h3 class="section__header">
+            Millions of Bankists are already making their lifes simpler.
+          </h3>
+        </div>
+
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best financial decision ever!</h5>
+              <blockquote class="testimonial__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusantium quas quisquam non? Quas voluptate nulla minima
+                deleniti optio ullam nesciunt, numquam corporis et asperiores
+                laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                id alias reiciendis, perferendis facere pariatur dolore veniam
+                autem esse non voluptatem saepe provident nihil molestiae.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Aarav Lynn</h6>
+                <p class="testimonial__location">San Francisco, USA</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                The last step to becoming a complete minimalist
+              </h5>
+              <blockquote class="testimonial__text">
+                Quisquam itaque deserunt ullam, quia ea repellendus provident,
+                ducimus neque ipsam modi voluptatibus doloremque, corrupti
+                laborum. Incidunt numquam perferendis veritatis neque
+                repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Illo deserunt exercitationem deleniti.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Miyah Miles</h6>
+                <p class="testimonial__location">London, UK</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                Finally free from old-school banks
+              </h5>
+              <blockquote class="testimonial__text">
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Francisco Gomes</h6>
+                <p class="testimonial__location">Lisbon, Portugal</p>
+              </address>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+
       <!-- <div class="smol-sidebar">
         <span data-text> Some sidebar content goes here </span>
         <span>

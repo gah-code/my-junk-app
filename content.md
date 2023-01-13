@@ -37,8 +37,9 @@ Removal item 2: Appliance Removal
 
 - Logo + Locations Navigation + Book a service button
 - Hero (slogan + Junk Gone Hauling & Junk Removal Services LLC Video)
-- Estimate Form + PENDING
+
 - Services - Services We Can Help You With
+- Estimate Form + PENDING
 
 ### We are a local business that has been in the industry for years
 
@@ -53,10 +54,24 @@ Our staff will arrive on time, work quickly and efficiently while maintaining a 
 Not every junk item is meant to be thrown away, and we understand that.
 Our team sorts your junk into three categories – Recycle, Donate, Dispose Of – and removes it accordingly.
 
-- How it works
-- Packages & (Client popular packages )
-- Testimonials + gallery
-- Pricing + features
-- CTA
-- About
-- Footer
+Tabbed Component
+
+## Furniture Removal Hollister, CA
+
+Are you looking to get rid of your old furniture? Junk Gone Hauling & Junk Removal Services can help! We offer a furniture removal service that will take care of all the heavy lifting for you. Whether you have a couch, a chair, or any other piece of furniture that needs to be removed, we're here for you.
+
+We understand that sometimes it's hard to let go of items that mean so much to us. That's why we make sure not only to remove your furniture from your home, but also to dispose of it properly. When you work with Junk Gone Hauling & Junk Removal Services for furniture removal, you can rest easy knowing your old furniture will never end up in a landfill where it will pollute the environment or cause harm to animals and humans alike.
+
+Furniture Removal
+Couch Removal
+Mattress Removal
+Bed Removal
+Futon Removal
+Box Spring Removal
+Couch Removal
+Sofa Removal
+Love Seat Removal
+Sectional Removal
+Table Removal
+Chair Removal
+Office Furniture Removal
